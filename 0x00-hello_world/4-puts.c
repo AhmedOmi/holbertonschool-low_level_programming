@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-//printf 
-//scanf 
-//main
+/*printf */
+/*scanf*/
+/*main*/
 int main()
 {
   puts ("Programming is like building a multilingual puzzle");
