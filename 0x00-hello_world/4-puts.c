@@ -1,8 +1,11 @@
 #include <stdio.h>
-#include <stdlib.h>
-/*stdio library*/
-/*stdlib library*/
-/*main */
-int main()
-{puts ("\"Programming is like building a multilingual puzzle");
-return (0);}
+/**
+ * main - Entry point
+ * print message
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
+}
