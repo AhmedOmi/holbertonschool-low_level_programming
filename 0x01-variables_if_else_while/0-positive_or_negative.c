@@ -4,7 +4,6 @@
 /**
  * more headers goes there
  * ahmed omar miladi
- * betty style doc for function main goes there
  */
 int main(void)
 {
