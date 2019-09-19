@@ -4,7 +4,6 @@
 /**
  * main - Entry point
  * Ahmed Omar Miladi
-
  * Return: Always 0 (Success)
  */
 int main(void)
