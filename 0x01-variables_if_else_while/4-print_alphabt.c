@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - 1 - last digit
+ * main - 4
  * Ahmed omar miladi
  * Return: Always 0 (Success)
  */
