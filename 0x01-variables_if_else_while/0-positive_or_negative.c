@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * more headers goes there
- * ahmed omar miladi
- *remote 
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
