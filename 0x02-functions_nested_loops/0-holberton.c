@@ -1,15 +1,17 @@
-#include"holberton.h"
+#include "holberton.h"
 /**
- * main - Entry point
- * 0
+ * main - entry point
+ * dsiplaying a msg
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int i;
-char h[20] = "Holberton";
-for (i = 0; h[i] ; i++)
-putchar(h[i]);
-putchar('\n');
+char *ch = "Holberton\n";
+
+while (*ch)
+{
+_putchar(*ch++);
+}
+
 return (0);
 }
