@@ -1,1 +1,0 @@
-readme all loops functions 
