@@ -10,12 +10,12 @@ int alpha, count;
 alpha = 'a';
 for (count = 0; count < 10; count++)
 {
-while (letter <= 'z')
+while (alpha <= 'z')
 {
-_putchar(letter);
-letter++;
+_putchar(alpha);
+alpha++;
 }
 _putchar('\n');
-letter = 'a';
+alpha = 'a';
 }
 }
