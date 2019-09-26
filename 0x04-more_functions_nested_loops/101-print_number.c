@@ -8,6 +8,7 @@
 void print_number(int n)
 {
 int i = 1;
+int s;
 if (n < 0)
 {
 n = -n;
@@ -19,7 +20,8 @@ if (i > 10)
 i = i / 10;
 while (i)
 {
-_putchar(n / i + '0');
+s = n / i;
+_putchar(s + '0');
 n = n % i;
 i = i / 10;
 }
