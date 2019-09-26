@@ -2,7 +2,7 @@
 #include"holberton.h"
 
 /**
- * more numbers -  0 to 14 times
+ * more_numbers -  0 to 14 times
  *
  * Return: nothing
  */
