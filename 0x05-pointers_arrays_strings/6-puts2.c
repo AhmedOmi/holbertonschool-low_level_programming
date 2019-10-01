@@ -2,12 +2,12 @@
 #include <stdio.h>
 /**
  * puts2 - putch
- * @str: char str
+ * @str: char pointer
  * Return: void
  */
 void puts2(char *str)
 {
-int l = 0;
+int l;
 while (str[l] != '\0')
 {
 _putchar(str[l]);
