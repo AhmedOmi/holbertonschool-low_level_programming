@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * puts2 - putch
- * @str: char pointer
- * Return: void
+ * @str : char pointer
+ * Return : void
  */
 void puts2(char *str)
 {
