@@ -9,7 +9,7 @@
 int main(void)
 {
  int count, count2, i;
- char array[17] = "Ahmed omar miladi";
+ char array[63] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
  char pwd[100];
 srand(time(NULL));
  i = 0;
