@@ -1,17 +1,22 @@
 #include "holberton.h"
-#include <stdio.h>
+
 /**
- * puts2 - putch
- * @str : char pointer
- * Return : void
- */
+* puts2 - print a char
+*@str: string to print
+*Return: 0
+*/
+
 void puts2(char *str)
 {
-int l = 0;
-while (str[l])
+int tmp;
+char s;
+for (tmp = 0; str[tmp] != 0; tmp++)
 {
-_putchar(str[l]);
-l = l + 2;
+if (tmp % 2 == 0)
+{
+s = str[tmp];
+_putchar(s);
+}
 }
 _putchar('\n');
 }
