@@ -13,14 +13,14 @@ int n = 0;
 char c[] = "ABCDEFGHIJKLMabcdefghijklmNOPQRSTUVWXYZnopqrstuvwxyz";
 char z[] = "NOPQRSTUVWXYZnopqrstuvwxyzABCDEFGHIJKLMabcdefghijklm";
 int i;
-int j;
+int j = 0;
 while (a[x] != '\0')
 x++;
 while (c[j] != '\0')
 b++;
 for (i = 0; i < x; i++)
 {
-for (j = 0; j < b; j++)
+for (j = 0; j < b && n == 0; j++)
 {
 if (a[i] == c[j])
 {
