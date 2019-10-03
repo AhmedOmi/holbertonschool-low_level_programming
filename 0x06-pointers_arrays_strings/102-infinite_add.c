@@ -8,7 +8,6 @@
 * @size_r: int
 * Return: char
 */
-
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 int i = 0, j = 0, s = 0, b, d, x, z;
@@ -40,8 +39,10 @@ i--, x = n1[i] - 48;
 else
 x = 0;
 if (j > 0)
+{
 j--;
 z = n2[j] - 48;
+}
 else
 z = 0;
 d--;
