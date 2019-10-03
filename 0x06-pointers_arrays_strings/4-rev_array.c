@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * main - check the code for Holberton School students.
+ * reverse_array - void function.
  * @a: pointer of integers
  * @n: pointer of integer
  * Return: void

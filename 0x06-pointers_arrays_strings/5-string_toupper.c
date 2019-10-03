@@ -2,8 +2,8 @@
 #include<stdio.h>
 /**
  * string_toupper - fonction toupper
- * @a : pointer char
- * return : char
+ * @a: pointer char
+ * Return: pointeur a return
  */
 char *string_toupper(char *a)
 {
