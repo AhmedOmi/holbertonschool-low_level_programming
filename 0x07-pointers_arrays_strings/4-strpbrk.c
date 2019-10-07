@@ -6,7 +6,6 @@
  * @accept: Char pointer
  * Return: char
  */
-
 char *_strpbrk(char *s, char *accept)
 {
 int a = 0;
