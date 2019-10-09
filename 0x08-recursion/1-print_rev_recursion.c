@@ -2,19 +2,15 @@
 #include<stdio.h>
 /**
  * _print_rev_recursion - function print reverse recursion.
- * *s: char pointer
+ * @s: pointer of char
  * Return: void.
  */
 void _print_rev_recursion(char *s)
 {
-int i = 0;
-if (*s == '\0')
+int i = 1;
+if (*s != '\0')
 {
-_putchar('\n');
+_print_rev_recursion(s + i);
+_putchar(*s);
 }
-while (s[i] != '\0')
-i++;
-_putchar(s[i]);
-i--;
-_print_rev_recursion(*s);
 }
