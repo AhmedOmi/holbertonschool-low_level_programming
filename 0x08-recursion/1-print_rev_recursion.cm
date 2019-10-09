@@ -15,6 +15,5 @@ _putchar('\n');
 while (s[i] != '\0')
 i++;
 _putchar(s[i]);
-i--;
-_print_rev_recursion(*s);
+_print_rev_recursion(*s - i);
 }
