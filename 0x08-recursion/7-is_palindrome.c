@@ -1,11 +1,11 @@
 #include"holberton.h"
 #include<stdio.h>
 /**
- * _strlen - length str
+ * _strlen_recursion - length str
  * @str: pointer char
  * Return: int
  */
-int _strlen(char *str)
+int _strlen_recursion(char *str)
 {
 int n;
 if (*str == '\0')
@@ -39,7 +39,7 @@ int is_palindrome(char *s)
 {
 int m;
 int x;
-m = _strlen(s);
+m = _strlen_recursion(s);
 x = _palindrome(m, 0, s);
 return (x);
 }
