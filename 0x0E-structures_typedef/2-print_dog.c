@@ -26,7 +26,7 @@ else
 {
 printf("Age: (nil)\n");
 }
-if (d->owner != NULL)
+if (d->owner != '\0')
 {
 printf("Owner: %s\n", d->owner);
 }
