@@ -19,13 +19,6 @@ else
 printf("Name: (nil)\n");
 }
 printf("Age: %f\n", d->age);
-if (d->owner != '\0')
-{
 printf("Owner: %s\n", d->owner);
-}
-else
-{
-printf("Owner: (nil)\n");
-}
 }
 }
