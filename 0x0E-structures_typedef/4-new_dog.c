@@ -12,10 +12,8 @@ int i = 0;
 char *ret;
 if (str == NULL)
 return (NULL);
-while (str[i] != '\0')
-{
+while (*str++)
 i++;
-}
 ret = malloc(sizeof(char) * (i + 1));
 if (!ret)
 return (NULL);
@@ -32,15 +30,15 @@ return (ret);
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-dog_t *d = malloc(sizeof(dog_t));
-if (!d)
+dog_t *dog = malloc(sizeof(dog_t));
+if (!dog)
 return (NULL);
-d->name = _strdup(name);
-if (name && !d->name)
-return (free(d), NULL);
-d->owner = _strdup(owner);
-if (owner && !d->owner)
-return (free(d->name), free(d), NULL);
-d->age = age;
-return (d);
+dog->name = _strdup(name);
+if (name && !dog->name)
+return (free(dog), NULL);
+dog->owner = _strdup(owner);
+if (owner && !dog->owner)
+return (free(dog->name), free(dog), NULL);
+dog->age = age;
+return (dog);
 }
