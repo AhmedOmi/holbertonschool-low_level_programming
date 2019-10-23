@@ -4,7 +4,7 @@
 /**
  * array_iterator - function array iterator
  * @array: pointer  int
- * size: size_t new type
+ * @size: size_t new type
  * @action: function pointer
  * return: void
  */
