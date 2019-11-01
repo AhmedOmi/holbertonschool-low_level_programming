@@ -1,19 +1,32 @@
 #include "lists.h"
 /**
- * print_list - function to print lists
- * @h: pointer of list
- * Return: retrn size_t
+ * _strlen - function to return length of string
+ * @s: char pointer
+ * Return: integer 0 or i
+ */
+int _strlen(char *s)
+{
+int i = 0;
+if (s == NULL)
+return (0);
+while (s[i] != '\0')
+i++;
+return (i);
+}
+/**
+ * print_list - function to print list
+ * @h: pointer  of list
+ * Return: return size_t
  */
 size_t print_list(const list_t *h)
 {
-size_t n = 0;
+size_t i = 0;
 while (h != NULL)
 {
-if (h->str == NULL)
-printf("(nil)");
-printf("[%d] %s\n", h->len, h->str);
+printf("[%d] %s\n", _strlen(h->str), h->str ? h->str : "(nil)");
 h = h->next;
-n++;
+i++;
 }
-return (n);
+return (i);
 }
+
