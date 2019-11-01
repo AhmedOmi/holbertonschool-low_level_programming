@@ -10,7 +10,8 @@ size_t n = 0;
 while (h != NULL)
 {
 if (h->str == NULL)
-printf("[%d] %s\n", _strlen(h->str), h->str ? h->str : "(nil)");
+printf("(nil)");
+printf("[%d] %s\n", h->len, h->str);
 h = h->next;
 n++;
 }
