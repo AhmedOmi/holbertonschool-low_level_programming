@@ -10,11 +10,11 @@ int sum = 0;
 va_list variablelist;
 unsigned int i = n;
 va_start(variablelist, n);
-while (i != 0)
-{
 if (n == 0)
 return (0);
 else
+{
+while (i != 0)
 {
 sum = sum + va_arg(variablelist, int);
 i--;
