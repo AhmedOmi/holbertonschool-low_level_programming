@@ -15,6 +15,6 @@ while (p != NULL)
 temp = p->next;
 free(p);
 p = temp;
-*head = NULL;
 }
+*head = NULL;
 }
