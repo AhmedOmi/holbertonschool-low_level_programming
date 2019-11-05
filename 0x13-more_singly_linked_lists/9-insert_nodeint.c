@@ -44,6 +44,11 @@ new->next = *head;
 return (new);
 }
 temp = get_nodeint_at_index(*head, idx - 1);
+if (temp == NULL)
+{
+free(new);
+return (NULL);
+}
 new->next = temp->next;
 temp->next = new;
 return (new);
