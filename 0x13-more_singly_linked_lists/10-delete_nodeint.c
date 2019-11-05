@@ -25,7 +25,7 @@ return (1);
 }
 for (i = 0; temp != NULL && i < index - 1; i++)
 {
-while (temp != NULL || temp->next != NULL)
+while (temp != NULL)
 {
 next = temp->next->next;
 temp->next = next;
