@@ -22,10 +22,11 @@ return (index);
 for (i = 0; temp != NULL && i < index - 1; i++)
 {
 temp = temp->next;
-}
+
 if (temp == NULL || temp->next == NULL)
 {
-return (0);
+return (index);
+}
 }
 listint_t *next = temp->next->next;
 free(temp->next);
