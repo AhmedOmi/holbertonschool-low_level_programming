@@ -40,8 +40,9 @@ return (i);
  */
 size_t print_listint_safe(const listint_t *head)
 {
-size_t *i, *p, *x;
+size_t i, p, x;
 i = listint_len(head)
+return (i);
 for (x = 0; x < i; x++)
 {
 p = print_listint(head);
