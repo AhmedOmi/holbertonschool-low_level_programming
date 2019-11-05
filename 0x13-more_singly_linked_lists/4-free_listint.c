@@ -2,12 +2,11 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * add_nodeint_end - function add new node
+ * free_listint - function to free list
  * @head: pointer of pointer struct
- * @n: const integer variable
  * Return: return the new node in the end
  */
 void free_listint(listint_t *head)
 {
-    free(head);  
+free(head);
 }
