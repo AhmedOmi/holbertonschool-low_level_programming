@@ -1,6 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
-
 /**
  * _strlen - check the code for Holberton School students.
  * @s: caracter

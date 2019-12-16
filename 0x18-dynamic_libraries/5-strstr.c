@@ -1,6 +1,4 @@
 #include"holberton.h"
-#include<stdio.h>
-
 /**
 * _strstr - function .
 * @haystack: pointer of char

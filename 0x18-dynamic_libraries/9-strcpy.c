@@ -1,6 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
-
 /**
  * _strcpy - copy
  * @dest: pointer dest

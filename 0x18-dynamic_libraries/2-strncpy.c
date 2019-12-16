@@ -1,5 +1,4 @@
 #include"holberton.h"
-#include<stdio.h>
 /**
  * _strncpy - copier to char
  * @src: pointer of char

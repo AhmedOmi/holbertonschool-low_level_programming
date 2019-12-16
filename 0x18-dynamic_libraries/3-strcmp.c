@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
 *_strcmp - concatination of strings
 *@s1:  int pointer

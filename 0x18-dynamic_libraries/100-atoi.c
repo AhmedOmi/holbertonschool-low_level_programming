@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
  * _atoi - converse from char to int
  * @s: string to convert

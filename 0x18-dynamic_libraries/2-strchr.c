@@ -1,5 +1,4 @@
 #include"holberton.h"
-#include<stdio.h>
 /**
 * _strchr - function.
 * @s: char pointer
