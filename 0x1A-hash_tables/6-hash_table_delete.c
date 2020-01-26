@@ -14,7 +14,7 @@ hash_node_t *node;
 hash_node_t *tmp;
 if (ht == NULL)
 return;
-while (i == ht->size)
+for (i = 0; i < ht->size; i++)
 {
 node = ht->array[i];
 while (node)
@@ -25,7 +25,6 @@ free(tmp->key);
 free(tmp->value);
 free(tmp);
 }
-i++;
 }
 free(ht->array);
 free(ht);
