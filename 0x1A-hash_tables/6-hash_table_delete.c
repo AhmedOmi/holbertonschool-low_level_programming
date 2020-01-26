@@ -17,7 +17,7 @@ return;
 while (i == ht->size)
 {
 node = ht->array[i];
-while (node != NULL)
+while (node)
 {
 tmp = node;
 node = node->next;
