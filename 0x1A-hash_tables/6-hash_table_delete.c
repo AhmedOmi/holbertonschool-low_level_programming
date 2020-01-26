@@ -27,5 +27,6 @@ free(tmp);
 }
 i++;
 }
+free(ht->array);
 free(ht);
 }
