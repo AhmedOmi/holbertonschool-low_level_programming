@@ -23,7 +23,7 @@ while (node)
 if (a != 0)
 printf(", ");
 printf("'%s': '%s'", node->key, node->value);
-printf(",");
+a++;
 node = node->next;
 }
 }
