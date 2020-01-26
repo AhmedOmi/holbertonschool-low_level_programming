@@ -21,6 +21,8 @@ while (node != NULL)
 {
 tmp = node;
 node = node->next;
+free(tmp->key);
+free(tmp->value);
 free(tmp);
 }
 i++;
