@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """
 island pariemeter functon with grid
