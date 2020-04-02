@@ -1,10 +1,10 @@
-CC = gcc
-SRC = main.c holberton.c
-OBJ = $(SRC:.c=.o)
-NAME = holberton
-RM = rm
-CFLAGS = -Wall -Werror -Wextra -pedantic
-all : m.h $(OBJ)
+CC=gcc
+SRC=main.c holberton.c
+OBJ=$(SRC:.c=.o)
+NAME=holberton
+RM=rm
+CFLAGS=-Wall -Werror -Wextra -pedantic
+all: m.h $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 clean:
 	rm -f *~ $(NAME)
